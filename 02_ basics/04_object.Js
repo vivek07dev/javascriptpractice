@@ -68,8 +68,8 @@ const users = [
 
     {
          name: "js in hindi",
-         coursname: "js in hindi",
-         price: "free",
+         coursename: "js in hindi",
+         price: "free"
 
     }
 
