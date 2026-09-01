@@ -1,3 +1,10 @@
-console.log("Hello, World!");
-// This is a simple JavaScript file that logs "Hello, World!" to the console.
-// You can run this code in a browser's developer console or in a Node.js environment.
+const table = document.getElementById("table");
+const tableAttrs = table.attributes; // Node/Element interface
+for (const attr of tableAttrs) {
+  // HTMLTableElement interface: border attribute
+  if (attr.nodeName.toLowerCase() === "border") {
+    table.border = "1";
+  }
+}
+// HTMLTableElement interface: summary attribute
+table.summary = "note: increased border";
