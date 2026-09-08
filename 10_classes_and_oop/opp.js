@@ -18,7 +18,7 @@ const user = {
 
 function User(username,loginCount,isloggedIn){
     this.username - username;
-    this .logginCount = loginCount;
+    this.logginCount = loginCount;
     this.isloggedIn = isloggedIn
 
     this.greetin = function(){
