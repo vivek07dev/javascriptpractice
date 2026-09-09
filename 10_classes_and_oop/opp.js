@@ -17,7 +17,7 @@ const user = {
 //**constuctor.function
 
 function User(username,loginCount,isloggedIn){
-    this.username - username;
+    this.username = username;
     this.logginCount = loginCount;
     this.isloggedIn = isloggedIn
 
