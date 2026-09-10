@@ -1,1 +1,6 @@
-let my
+let myHeros = ("thor" ,"spiderman")
+
+let heroPower = {
+
+}
+
